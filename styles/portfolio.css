@@ -33,6 +33,7 @@ p {
   opacity: 0.7;
   font-family: var(--main-font);
   font-weight: normal;
+  font-size: 16px;
 }
 
 .hero-container {
@@ -62,6 +63,30 @@ p {
   display: inline-block;
 }
 
+.btn-branding-outline {
+  background-color: white;
+  color: var(--branded-color);
+  font-family: var(--main-font);
+  border-color: var(--branded-color);
+  font-size: 18px;
+  line-height: 27px;
+  border-radius: 4px;
+  padding: 15px 30px;
+  display: inline-block;
+}
+
+.body-heading {
+  font-size: 64px;
+  font-family: var(--secondary-font);
+  line-height: 85px;
+}
+
+.sub-text {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 32px;
@@ -80,5 +105,9 @@ p {
     margin: 20px;
     padding: 0;
     line-height: 20px;
+  }
+  .sub-text {
+    text-align: center;
+    width: 100%;
   }
 }
