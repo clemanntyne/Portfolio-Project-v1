@@ -43,6 +43,10 @@ p {
   font-size: 16px;
 }
 
+.navbar {
+  font-family: var(--main-font) !important;
+}
+
 .hero-container {
   background-color: var(--background-color);
   text-align: center;
@@ -51,6 +55,12 @@ p {
 
 .color {
   background-color: var(--background-color);
+}
+
+.featured {
+  font-family: var(--main-font);
+  font-size: 18px;
+  color: var(--secondary-font-color);
 }
 
 .sub-heading {
@@ -129,6 +139,25 @@ p {
   line-height: 27px;
 }
 
+.email {
+  font-family: var(--main-font);
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.logo {
+  font-size: 21px;
+  display: flex;
+  justify-content: center;
+  color: var(--branded-color);
+}
+
+.logos {
+  background-color: var(--background-color);
+  padding: 10px;
+  border-radius: 50%;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 32px;
@@ -142,6 +171,10 @@ p {
     padding: 0;
     line-height: 40px;
   }
+  .hero-container {
+    padding: 100px 0px;
+  }
+
   .sub-heading {
     font-size: 16px;
     margin: 20px;
@@ -161,5 +194,11 @@ p {
   .btn-footer {
     padding: 15px 20px;
     font-size: 13px;
+  }
+}
+
+@media (max-width: 992px) {
+  .body-heading {
+    font-size: 42px;
   }
 }
