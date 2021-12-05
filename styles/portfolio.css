@@ -3,10 +3,17 @@ font-family: 'Poppins', sans-serif;*/
 
 :root {
   --secondary-font-color: #272142;
-  --branded-color: #6c63ff;
+  --branded-color: rgb(113, 187, 248);
   --main-font: "Poppins", sans-serif;
   --secondary-font: "Playfair Display", serif;
-  --background-color: #f9f7fe;
+  --background-color: radial-gradient(
+    1550px at 2.9% 15%,
+    rgb(191, 224, 251) 0%,
+    rgb(232, 233, 251) 25.8%,
+    rgb(252, 239, 250) 50.8%,
+    rgb(234, 251, 251) 77.6%,
+    rgb(240, 251, 244) 100.7%
+  );
 }
 
 h1 {
@@ -48,7 +55,7 @@ p {
 }
 
 .hero-container {
-  background-color: var(--background-color);
+  background: var(--background-color);
   text-align: center;
   padding: 160px 0;
 }
@@ -59,7 +66,7 @@ p {
 
 .featured {
   font-family: var(--main-font);
-  font-size: 18px;
+  font-size: 24px;
   color: var(--secondary-font-color);
 }
 
@@ -70,6 +77,11 @@ p {
   font-style: normal;
   font-size: 24px;
   line-height: 36px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .btn-branding {
@@ -126,7 +138,7 @@ p {
   padding: 10px;
 }
 .container-footer {
-  background-color: var(--background-color);
+  background: var(--background-color);
   margin: 50px 50px;
   border-radius: 20px;
   margin: 50px auto;
@@ -180,6 +192,9 @@ p {
     margin: 20px;
     padding: 0;
     line-height: 20px;
+  }
+  .featured {
+    font-size: 16px;
   }
   .sub-text {
     text-align: center;
