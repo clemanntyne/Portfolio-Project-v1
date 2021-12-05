@@ -60,6 +60,12 @@ p {
   padding: 160px 0;
 }
 
+.hero-container-about {
+  background: var(--background-color);
+  text-align: center;
+  padding: 80px 0;
+}
+
 .color {
   background-color: var(--background-color);
 }
